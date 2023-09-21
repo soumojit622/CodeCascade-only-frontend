@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Submission</title>
+    <link rel="stylesheet" href="css/project.css">
+    <!--Favicon-->
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Website Logo">
+        </div>
+        <h1 id="title">Project Submission</h1>
+        <p id="description">Help us, Let us know about your project</p>
+    </div>
+    <div class="flex-container">
+        <div>
+            <form action="" id="survey-form">
+                <!-- name -->
+                <div>
+                    <label for="name" id="name-label">Project Name</label>
+                    <input type="text" placeholder="Enter your project name..." id="name" required>
+                </div>
+                <!-- description -->
+                <div>
+                    <label for="name" id="name-label">Project Description</label>
+                    <input type="text" placeholder="Enter your project description..." id="name" required>
+                </div>
+                <!-- category -->
+                <div>
+                    <label for="name" id="name-label">Project Category</label>
+                    <input type="text" placeholder="Enter your project category..." id="name" required>
+                </div>
+                <!-- tags -->
+                <div>
+                    <label for="name" id="name-label">Project tags</label>
+                    <input type="text" placeholder="Enter your project tags..." id="name" required>
+                </div>
+                <!-- start date -->
+                <div>
+                    <label for="start-date">Project Start Date</label>
+                    <input type="date" id="start-date" name="start-date">
+                </div>
+
+                <!-- end date -->
+                <div>
+                    <label for="end-date">Project End Date</label>
+                    <input type="date" id="end-date" name="end-date">
+                </div>
+
+                <!-- dropdown -->
+                <div>
+                    <label for="dropdown">Which Option Best Describes Your Current Role?</label>
+                    <select name="" id="dropdown" aria-placeholder="Select Current Role">
+                        <option value="Select Current Role" disabled selected>Select Current Role</option>
+                        <option value="Student">Student</option>
+                        <option value="Full Time Jod">Full Time Jod</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer not say">Prefer not say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <!-- radio buttons -->
+                <!-- <div>
+                    <label>Radio buttons for future use</label>
+                    <label for="Yes">
+                        <input type="radio" name="recommendation" id="Yes" value="Yes" checked> Yes
+                    </label>
+                    <label for="Maybe">
+                        <input type="radio" name="recommendation" id="Maybe" value="Maybe"> Maybe
+                    </label>
+                    <label for="Not sure">
+                        <input type="radio" name="recommendation" id="Not sure" value="Not sure"> Not sure
+                    </label>
+                    <label for="No">
+                        <input type="radio" name="recommendation" id="No" value="No"> No
+                    </label>
+                </div> -->
+
+                <div>
+                    <label for="">Submission Preferences</label>
+                    <label for="">
+                        <input type="checkbox" name="suggestion" id="" value="Publication Consent"> Publication Consent
+                        (granting permission to publish the project on the platform and share it with the community)
+                    </label>
+                    &nbsp;
+                    <label for="">
+                        <input type="checkbox" name="suggestion" id="" value="Collaboration Agreement"> Collaboration
+                        Agreement ( all contributors have agreed to submit the project jointly)
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="suggestion" id="" value="Third-Party Tool Integration"> Third-Party
+                        Tool Integration ( Confirm usage rights for third-party tools/services)
+                    </label>
+                </div>
+
+                <!-- file attachment -->
+                <div>
+                    <label for="file">Please Attach Your Project Here</label>
+                    <input type="file" id="file" name="attachment">
+                </div>
+
+
+                <!-- <div>
+                    <label for="comments">Comments</label>
+                    <textarea name="" id="comments" cols="5" rows="5"
+                        placeholder="Enter your comment here..."></textarea>
+                </div> -->
+
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
+            <!-- Copyright section -->
+            <footer>
+                <p>&copy; 2023 Tech2Win. All Rights Reserved.</p>
+            </footer>
+
+        </div>
+    </div>
+</body>
+
+</html>
